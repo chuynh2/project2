@@ -1,0 +1,38 @@
+html {
+	font-family: 'Spartan', sans-serif;
+	font-size: 17px;
+}
+#main-header {
+	background-color: blue;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	overflow: hidden;
+}
+#main-navbar {
+	background-color: #050540;
+	overflow: hidden;
+}
+#main-navbar div ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #050540;
+}
+#main-navbar div ul li {
+	float: left;
+}
+#main-navbar div ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+#main-navbar div ul li a:hover {
+  background-color: #111;
+}
+body {
+	background-size: cover;
+}
