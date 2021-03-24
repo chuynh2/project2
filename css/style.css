@@ -3,14 +3,14 @@ html {
 	font-size: 17px;
 }
 #main-header {
-	background-color: blue;
+	background-color: #050540;
 	text-align: center;
-	font-size: 30px;
+	font-size: 40px;
 	color: white;
 	overflow: hidden;
 }
 #main-navbar {
-	background-color: #050540;
+	background-color: #6643d1;
 	overflow: hidden;
 }
 #main-navbar div ul{
@@ -18,7 +18,7 @@ html {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #050540;
+	background-color: #6643d1;
 }
 #main-navbar div ul li {
 	float: left;
@@ -29,10 +29,36 @@ html {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	font-size: 20px;
 }
 #main-navbar div ul li a:hover {
-  background-color: #111;
+  background-color: #f4fab9;
+  color: black;
 }
-body {
+#main{
+	background-color: #f4fab9;
+	 box-shadow: -10px 0px 10px -5px rgba(0,0,0,0.3), 10px 0px 10px -5px rgba(0,0,0,0.3);
+	width: 1000px;
+	margin: 0 auto;
+	padding: 100px;
+}
+td{
+	margin: 0 auto;
+	padding: 15px;
+}
+body{ 
 	background-size: cover;
+	background-image: url(../media/overlay.png);
+	background-repeat: no-repeat;
+}
+.label {
+	Font-size: 50px;
+	text-decoration: underline;
+}
+.text {
+	font-size: 20px;
+}
+.caption {
+	font-size: 15px;
+	color: gray;
 }
